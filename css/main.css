@@ -7,22 +7,6 @@ html {
   box-sizing: inherit;
 }
 
-.banner {
-  position: relative;
-  max-height: 500px;
-  margin: 0;
-  padding: .3rem 1rem;
-}
-
-.banner-content {
-  padding: 0 1rem;
-  position: absolute;
-  bottom: 1rem;
-  left: 1rem;
-  width: 100%;
-  max-width: 50em;
-}
-
 body {
   margin: 0;
 }
@@ -32,7 +16,25 @@ body {
   width: 100%;
 }
 
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+  margin: 0;
+  padding: .3rem 1rem;
+}
+
+.banner-content {
+  padding: 0 1rem;
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 h2 {
+  display: inline;
   font-size: 4rem;
   background-color: rgba(0, 0, 0, .5);
   color: white;
