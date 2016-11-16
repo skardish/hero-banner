@@ -9,7 +9,26 @@ html {
 .banner {
   position: relative;
 }
+
 .banner-content {
   padding: 0 1rem;
   position: absolute;
   bottom: 1rem;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+}
