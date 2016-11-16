@@ -5,3 +5,11 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.banner {
+  position: relative;
+}
+.banner-content {
+  padding: 0 1rem;
+  position: absolute;
+  bottom: 1rem;
